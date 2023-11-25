@@ -1,15 +1,40 @@
-Minimax Tic Tac Toe
-Welcome to the Minimax Tic Tac Toe repository! This project showcases a classic Tic Tac Toe game with an intelligent AI powered by the Minimax algorithm. Built using [programming language/framework/library], this implementation provides a challenging and strategic gaming experience.
+# **Tic-Tac-Toe Game**
 
-Features:
-Player vs Player: Challenge your friends in the classic Tic Tac Toe style.
-Minimax AI: Face off against a powerful AI opponent that utilizes the Minimax algorithm for optimal decision-making.
-Clean and Responsive Interface: Enjoy a user-friendly design for a seamless gaming experience.
-Winning Logic: The game includes a robust winning logic, ensuring fair outcomes in each match.
-How to Play:
-Clone the repository to your local machine.
-Open the project in your preferred [IDE].
-Run the game and experience the challenge of playing against the Minimax AI!
-Feel free to explore the code, suggest improvements, or customize the game to suit your preferences. If you encounter any issues or have ideas for enhancements, don't hesitate to open an issue or submit a pull request.
+This is a simple implementation of the Tic-Tac-Toe game in Python. The game allows two players to take turns, with one being the computer (AI) in a single-player mode.
 
-Are you ready to take on the Minimax challenge in Tic Tac Toe? 🤖🎮
+## **How to Play**
+
+1. Run the program by executing the `main()` function.
+2. Choose between single-player (against the computer) or multiplayer.
+3. Follow the on-screen instructions to make your moves.
+4. The game will announce the winner or declare a draw.
+
+## **Files**
+
+- `tic_tac_toe.py`: Contains the main code for the Tic-Tac-Toe game.
+
+## **Code Structure**
+
+- **ConstBoard(board):** Function to display the current state of the Tic-Tac-Toe board.
+
+- **User1Turn(board):** Function for the user's (X's) turn in multiplayer mode.
+
+- **User2Turn(board):** Function for the second user's (O's) turn in multiplayer mode.
+
+- **minimax(board, player):** Minimax algorithm implementation for the computer's (AI) turn.
+
+- **CompTurn(board):** Function for the computer's (O's) turn using the minimax algorithm.
+
+- **analyzeboard(board):** Function to check for a win or draw.
+
+- **main():** The main function to initiate the game and handle user choices.
+
+## **Usage**
+
+1. Clone the repository: `git clone https://github.com/yourusername/tic-tac-toe.git`
+2. Navigate to the project directory: `cd tic-tac-toe`
+3. Run the program: `python tic_tac_toe.py`
+
+## **Dependencies**
+
+This program requires Python 3.x to run.
